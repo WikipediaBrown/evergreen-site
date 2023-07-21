@@ -12,6 +12,10 @@
                   "exclude": true,
                   "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
                },
+               {
+                 "/": "/plaid/*",
+                 "comment": "Matches any URL path whose path starts with /plaid/. From: https://plaid.com/docs/link/ios/"
+               },
                // {
                //    "/": "/buy/*",
                //    "comment": "Matches any URL with a path that starts with /buy/."
